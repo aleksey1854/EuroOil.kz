@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Автозаправочная сеть EuroOil</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/get-web/google-translate-custom-widget/nativejs/css/google-translate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="test.css" />
+    <link rel="icon" href="img/logo.svg" type="image/svg+xml" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-top">
+        <span class="logo">
+          EuroOil
+          <img src="img/logo.webp" alt="EuroOilLogo" />
+        </span>
+        <div class="dropdown lang-dropdown notranslate">
+          <button
+            class="btn dropdown-toggle p-0 border-0 bg-transparent"
+            id="langDropdown"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            <img
+              src="img/lang__ru.ico"
+              alt="Текущий язык"
+              id="current-lang-flag"
+              class="language__img"
+            />
+          </button>
+
+          <div class="dropdown-menu" aria-labelledby="langDropdown">
+            <a
+              class="dropdown-item d-flex align-items-center"
+              href="#"
+              data-google-lang="ru"
+            >
+              <img
+                src="img/lang__ru.ico"
+                class="mr-2 language__img"
+                alt="Русский"
+              />
+              Русский
+            </a>
+            <a
+              class="dropdown-item d-flex align-items-center"
+              href="#"
+              data-google-lang="kk"
+            >
+              <img
+                src="img/lang__kk.ico"
+                class="mr-2 language__img"
+                alt="Қазақша"
+              />
+              Қазақша
+            </a>
+            <a
+              class="dropdown-item d-flex align-items-center"
+              href="#"
+              data-google-lang="en"
+            >
+              <img
+                src="img/lang__en.ico"
+                class="mr-2 language__img"
+                alt="English"
+              />
+              English
+            </a>
+          </div>
+        </div>
+        <div class="header-controls">
+          <div class="header-contacts">
+            <div class="contact contact--phone">8 (707) 249-34-56</div>
+            <div class="contact contact--email">euroil@mail.ru</div>
+          </div>
+          <div class="btn-group dropleft">
+            <button
+              type="button"
+              class="btn dropdown-toggle menu-toggle"
+              id="headerDropdown"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+              aria-label="Открыть меню"
+            >
+              <img
+                src="img/HeaderTopRightDefault.webp"
+                alt=""
+                class="menu-toggle__icon menu-toggle__icon--open"
+              />
+              <img
+                src="img/HeaderTopRightClose.webp"
+                alt=""
+                class="menu-toggle__icon menu-toggle__icon--close"
+              />
+            </button>
+            <div class="dropdown-menu" aria-labelledby="headerDropdown">
+              <a class="dropdown-item" href="/testRefuel.html">
+                <img src="img/BenzinIconka.webp" alt="" class="btn__icon" />
+                Заправиться
+              </a>
+              <a class="dropdown-item" href="/test.html">Главная</a>
+              <a class="dropdown-item" href="/testAdresa.html">Адреса</a>
+              <a class="dropdown-item" href="/testServices.html">Услуги</a>
+              <a class="dropdown-item" href="/testOffers.html">Акции</a>
+              <a class="dropdown-item" href="/testJobs.html">Трудоустройство</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="header-divider"></div>
+
+      <div class="container header-bottom">
+        <nav>
+          <ul>
+            <li class="btn">
+              <a href="/testRefuel.html">
+                <img
+                  src="img/BenzinIconka.webp"
+                  alt="Иконка канистры"
+                  class="btn__icon"
+                />
+                <span class="btn__text">Заправиться</span>
+              </a>
+            </li>
+            <li><a href="/test.html">Главная</a></li>
+            <li><a href="/testAdresa.html">Адреса</a></li>
+            <li><a href="/testServices.html" class="active">Услуги</a></li>
+            <li><a href="/testOffers.html">Акции</a></li>
+            <li><a href="/testJobs.html">Трудоустройство</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="ServicesOne">
+      <div class="ServicesOne-bg"></div>
+      <div class="ServicesOne--inner">
+        <div class="container">
+          <div class="ServicesOne--info">
+            <h2>Дополнительные услуги</h2>
+            <h1>Ознакомьтесь с нашими опциями</h1>
+            <a href="#services-two" class="ServicesOne__btn">К услугам</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services-two" class="ServicesTwo">
+      <div class="container ServicesTwo--inner">
+        <div class="ServicesTwoCards">
+          <div class="ServicesTwoCard">
+            <div class="ServicesPic">
+              <img src="img/ServicesTwoPic.webp" alt="" />
+            </div>
+            <div class="ServicesTwoCard__text">
+              <h1 class="ServicesTitle">
+                Зарядка электромобилей на быстрых станциях
+              </h1>
+              <div class="ServicesTwoCard__details">
+                <h2>• Мощность до 50 кВт (CCS/CHAdeMO)</h2>
+                <h2>• Оплата картой и KaspiQR*</h2>
+                <h3>*Только на автозаправке по адресу: ул. Бейбитшилик, 13</h3>
+              </div>
+              <div class="ServicesTwoCard__price">
+                <h1 class="ServicesPrice">120 ₸/кВт·ч</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <div class="container site-footer__inner">
+        <div class="site-footer__col">
+          <span class="footer-logo">
+            EuroOil
+            <img src="img/logo.webp" alt="EuroOil Logo" />
+          </span>
+          <nav class="footer-nav">
+            <a href="/test.html">На главную</a>
+            <a href="/testAdresa.html">Адреса</a>
+            <a href="/testServices.html">Услуги</a>
+          </nav>
+        </div>
+
+        <div class="site-footer__col">
+          <div class="footer-phone">
+            8 (707) 249-34-56
+            <div>euroil@mail.ru</div>
+          </div>
+          <nav class="footer-nav">
+            <a href="/testOffers.html">Акции</a>
+            <a href="/testJobs.html">Трудоустройство</a>
+            <a href="/testRefuel.html">Топливо</a>
+          </nav>
+        </div>
+
+        <div class="site-footer__col site-footer__col--right">
+          <div class="footer-contact-title">Обратная связь</div>
+          <div class="footer-social">
+            <a href="https://t.me/aleksey1854" target="_blank">
+              <img src="img/telegram.webp" alt="Telegram" />
+            </a>
+            <a
+              href="https://api.whatsapp.com/send?phone=77072493456"
+              target="_blank"
+            >
+              <img src="img/whatsapp.webp" alt="WhatsApp" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const currentFlag = document.getElementById("current-lang-flag");
+        const items = document.querySelectorAll(
+          ".lang-dropdown .dropdown-item"
+        );
+        function updateFlag(lang) {
+          const item = document.querySelector(
+            `.lang-dropdown .dropdown-item[data-google-lang="${lang}"]`
+          );
+          if (!item) return;
+          const img = item.querySelector("img");
+          if (img) {
+            currentFlag.src = img.src;
+            currentFlag.alt = img.alt;
+          }
+        }
+        items.forEach((item) => {
+          item.addEventListener("click", function (e) {
+            e.preventDefault();
+            const lang = this.dataset.googleLang;
+            if (typeof changeLanguage === "function") {
+              changeLanguage(lang);
+            }
+            updateFlag(lang);
+          });
+        });
+        if (typeof Cookies !== "undefined") {
+          const cookie = Cookies.get("googtrans");
+          if (cookie) {
+            const parts = cookie.split("/");
+            const selected = parts[2] || parts[1];
+            if (selected) updateFlag(selected);
+          }
+          document.addEventListener("FinishTranslate", function () {
+            const c = Cookies.get("googtrans");
+            if (!c) return;
+            const p = c.split("/");
+            const lang = p[2] || p[1];
+            if (lang) updateFlag(lang);
+          });
+        }
+      });
+    </script>
+    <script src="https://cdn.jsdelivr.net/gh/get-web/google-translate-custom-widget/nativejs/js/google-translate.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/get-web/google-translate-custom-widget/nativejs/js/google-translate.js"></script>
+  </body>
+</html>
