@@ -1578,7 +1578,7 @@ html::-webkit-scrollbar {
     text-decoration: none;
     line-height: 1.2;
     paint-order: stroke fill;
-    -webkit-text-stroke: 0.1875rem #D9BF6B;
+    -webkit-text-stroke: 0.1406rem #D9BF6B;
 }
 
 .menu-toggle {
